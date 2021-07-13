@@ -42,6 +42,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+.content a:hover {
+    background: rgba(248, 116, 116, 0.671);
+    transition: 1s ease-in-out;
+}
 .content a i {
     padding-left: 5px;
 }
@@ -75,6 +79,7 @@ body {
 .thumbnail img {
     width: 300px;
     height: 256px;
+    text-align: center;
 }
 .player-detail h1 {
     margin-bottom: 15px;
@@ -103,8 +108,8 @@ footer h4 {
     padding-bottom: 50px;
 }
 
-/* responsive css */
-@media only screen and (max-width: 600px) {
+/* responsive css for mobile */
+@media screen and (max-width: 600px) {
     /* top section */
     .top-sec {
         grid-template-columns: repeat(1, 1fr);
