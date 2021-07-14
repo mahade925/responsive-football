@@ -64,6 +64,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 27px;
+    width: 60%;
+    margin: 0 auto;
 }
 .player {
     width: 330px;
@@ -165,6 +167,7 @@ footer h4 {
     }
     /* player card responsive styles */
     .players {
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
     /* footer responsive styles */
@@ -188,7 +191,13 @@ footer h4 {
     }
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 601px)  {
+@media only screen and (max-width: 1000px) and (min-width: 601px)  {
+    main {
+        width: 120%;
+    }
+    .top-sec {
+        grid-template-columns: repeat(1, 1fr );
+    }
     .players {
         grid-template-columns: repeat(2, 1fr);
     }
