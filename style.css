@@ -84,6 +84,9 @@ body {
 .player-detail h1 {
     margin-bottom: 15px;
 }
+.player-detail p {
+    padding-bottom: 20px;
+}
 .player-detail {
     padding: 12px;
 }
