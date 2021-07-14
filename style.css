@@ -88,6 +88,22 @@ body {
     padding: 12px;
 }
 
+/* our video */
+.our-video {
+    margin-top: 10%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+.our-video h1 {
+    font-size: 40px;
+    padding-bottom: 5%;
+}
+
 /* footer */
 footer {
     text-align: center;
@@ -110,7 +126,7 @@ footer h4 {
 
 /* responsive css for mobile */
 @media screen and (max-width: 600px) {
-    /* top section */
+    /* top section responsive styles */
     .top-sec {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -122,12 +138,20 @@ footer h4 {
         width: 329px;
         height: 259px;
     }
-    /* player card */
+    /* player card responsive styles */
     .players {
         grid-template-columns: repeat(1, 1fr);
     }
-    /* footer */
+    /* footer responsive styles */
     .logo img {
         width: 50%;
+    }
+    /* our video responsive styles */
+    .our-video h1 {
+        font-size: 20px;
+    }
+    .our-video iframe {
+        width: 85%;
+        height: 35%;
     }
 }
